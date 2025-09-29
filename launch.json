@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Exercise 1.exe", // Change into (Anyname).exe base on your .exe compiled name in tasks.json
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Exercise 1.exe", // Change into (Anyname).exe base on your .exe compiled name in tasks.json
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "build Exercise 1" // Change into (Anyname) base on your name in tasks.json
+        }
+    ]
+}

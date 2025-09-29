@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build Exercise 1", // (Anyname) base on your .cpp file
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "Exercise 1.cpp", // Change base on your (Anyname).cpp
+                "-o",
+                "Exercise 1.exe" // Change into (Anyname).exe no need follow name of .cpp
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
