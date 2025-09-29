@@ -17,7 +17,7 @@ void clearScreen() {
     system("cls");
 }
 
-// Pause until Enter
+// Pause until Press Enter
 void pressEnter(const string& message = "Press Enter to continue...") {
     cout << "\n" << message;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -30,17 +30,17 @@ void printRainbowHeaderAnimated() {
     int colors[] = {12, 14, 10, 11, 13, 9};
     int len = sizeof(colors) / sizeof(colors[0]);
 
-    cout << "\n"; // spacing so it doesn't overwrite anything
+    cout << "\n"; 
     for (size_t i = 0; i < header.size(); i++) {
         setColor(colors[i % len]);
         cout << header[i] << flush;
-        Sleep(40); // smooth animation speed
+        Sleep(40); 
     }
     setColor(7);
-    cout << "\n\n"; // extra spacing below header
+    cout << "\n\n"; 
 }
 
-// ===== Animations (kept from original) =====
+// ===== Animations =====
 void rebootingAnimation() {
     clearScreen();
     setColor(10);
@@ -142,7 +142,7 @@ int main() {
 
     do {
         clearScreen();
-        printRainbowHeaderAnimated(); // ✅ Clean, non-intrusive header animation
+        printRainbowHeaderAnimated();
 
         setColor(10);
         cout << "1. Calculate total and average of three numbers\n";
@@ -155,11 +155,10 @@ int main() {
         cout << "Enter the question number (1-5): ";
         cin >> choice;
 
-        // ✅ Handle invalid inputs (e.g., letters)
         if (cin.fail()) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            choice = -1; // force invalid case
+            choice = -1;
         }
 
         switch (choice) {
