@@ -116,7 +116,7 @@ void formattingAnimation() {
 void justKiddingMessage() {
     setColor(7);
     for (int i = 0; i < 2; i++) {
-        cout << "Failed to reinstall Windows due to lack of disk space";
+        cout << "Just Kidding";
         for (int j = 0; j < 3; j++) {
             Sleep(500);
             cout << ".";
@@ -130,9 +130,7 @@ void justKiddingMessage() {
 void Retry() {
     clearScreen();
     setColor(10);
-    cout << "GG...Your Windows Is Now Dead Due Your Mistaken.\n";
-    cout << "Please Buy A New Laptop/PC To Continue Using Windows OS.\n";
-    cout << "Just Kidding, Please Choose The Correct Option Next Time.\n";
+    cout << "Please Choose The Correct Option Next Time! '\n";
     system("pause");
 }
 
@@ -148,7 +146,7 @@ int main() {
         cout << "1. Calculate total and average of three numbers\n";
         cout << "2. Calculate volume of a box\n";
         cout << "3. Anas new salary with 5% increment\n";
-        cout << "4. Supra gas mileage\n";
+        cout << "4. Azmi gas mileage\n";
         cout << "5. Exit\n";
         setColor(7);
 
@@ -195,21 +193,29 @@ int main() {
                 break;
             }
             case 3: {
-                double salary, newSalary;
+                double salary, incrementPercent, newSalary;
                 cout << "\nEnter Anas current salary: ";
                 cin >> salary;
-
-                newSalary = salary + (salary * 0.05);
-                cout << "Anas new salary after 5% increment: MYR/RM " << newSalary << endl;
+                cout << "Enter increment percentage (%): ";
+                cin >> incrementPercent;
+                newSalary = salary + (salary * (incrementPercent / 100.0));
+                cout << "Anas new salary after " << incrementPercent << "% increment: MYR/RM " << newSalary << endl;
                 pressEnter();
                 break;
             }
             case 4: {
-                double distance = 234, gallons = 15, mpg;
-                mpg = distance / gallons;
-                cout << "\nDistance travelled: " << distance << " miles\n";
-                cout << "Gas used: " << gallons << " gallons\n";
-                cout << "Car travelled: " << mpg << " miles per gallon\n";
+                int distance, gallons;
+                double mileage;
+                cout << "\nEnter distance traveled (in miles): ";
+                cin >> distance;
+                cout << "Enter gallons of gas used: ";
+                cin >> gallons;
+                if (gallons == 0) {
+                    cout << "Gallons cannot be zero." << endl;
+                } else {
+                    mileage = static_cast<double>(distance) / gallons;
+                    cout << "Azmi gas mileage is: " << mileage << " miles per gallon" << endl;
+                }
                 pressEnter();
                 break;
             }
@@ -226,8 +232,7 @@ int main() {
                     Sleep(500);
                     clearScreen();
                 }
-                pressEnter("Press Enter to continue...");
-                break;
+
             }
             default:
                 rebootingAnimation();
