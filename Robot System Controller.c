@@ -3,9 +3,9 @@
 int main() 
 {
     int age = 24;
-    float height = 154.6; 
-    char name[] = "MUHAMMAD SYUHAIRUDEN BIN NAMRAH"; 
-    char tittle[] = "MSU";
+    float height = 174.6; 
+    char name[] = "X"; 
+    char tittle[] = "X";
 
     printf("%s\n", tittle);   
     printf("Name: %s\n", name);                             // %s → string → char name[]
