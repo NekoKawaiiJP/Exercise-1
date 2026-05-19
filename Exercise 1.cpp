@@ -145,8 +145,8 @@ int main() {
         setColor(10);
         cout << "1. Calculate total and average of three numbers\n";
         cout << "2. Calculate volume of a box\n";
-        cout << "3. Anas new salary with 5% increment\n";
-        cout << "4. Azmi gas mileage\n";
+        cout << "3. Nika new salary with 5% increment\n";
+        cout << "4. Nami gas mileage\n";
         cout << "5. Exit\n";
         setColor(7);
 
@@ -194,12 +194,12 @@ int main() {
             }
             case 3: {
                 double salary, incrementPercent, newSalary;
-                cout << "\nEnter Anas current salary: ";
+                cout << "\nEnter Nika current salary: ";
                 cin >> salary;
                 cout << "Enter increment percentage (%): ";
                 cin >> incrementPercent;
                 newSalary = salary + (salary * (incrementPercent / 100.0));
-                cout << "Anas new salary after " << incrementPercent << "% increment: MYR/RM " << newSalary << endl;
+                cout << "Nika new salary after " << incrementPercent << "% increment: MYR/RM " << newSalary << endl;
                 pressEnter();
                 break;
             }
@@ -214,7 +214,7 @@ int main() {
                     cout << "Gallons cannot be zero." << endl;
                 } else {
                     mileage = static_cast<double>(distance) / gallons;
-                    cout << "Azmi gas mileage is: " << mileage << " miles per gallon" << endl;
+                    cout << "Nami gas mileage is: " << mileage << " miles per gallon" << endl;
                 }
                 pressEnter();
                 break;
