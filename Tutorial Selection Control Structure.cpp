@@ -35,13 +35,13 @@ int main() {
         cout << "\nStudent ID: ";
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
-        cout << "012025021052" << endl;
+        cout << "X" << endl;
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 13);
         cout << "\nProgram: ";
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
-        cout << "BETE" << endl;
+        cout << "X" << endl;
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 13);
         cout << "\n______________________________________________________" << endl;
