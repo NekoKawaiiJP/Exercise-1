@@ -9,9 +9,9 @@ int main() {
     do {
         cout << "\n______________________________________________________" << endl;
         cout << "\nTittle: Lab 3" << endl;
-        cout << "\nStudent Name: MUHAMMAD SYUHAIRUDEN BIN NAMRAH" << endl;
-        cout << "\nStuden ID: 012025021052" << endl;
-        cout << "\nProgram: BETE" << endl;
+        cout << "\nStudent Name: X" << endl;
+        cout << "\nStuden ID: X" << endl;
+        cout << "\nProgram: X" << endl;
         cout << "\n______________________________________________________" << endl;
         cout << "\nQuestion:\n";
         cout << "1. Volume Of A Sphere" << endl;
