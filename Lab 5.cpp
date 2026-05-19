@@ -20,8 +20,8 @@ int main() {
         cout << "\n______________________________________________________" << endl;
         cout << "\nTitle: Lab 5" << endl;
         cout << "\nStudent Name: 山本 里奈" << endl;
-        cout << "\nStudent ID: 012025021052" << endl;
-        cout << "\nProgram: BETE" << endl;
+        cout << "\nStudent ID: X" << endl;
+        cout << "\nProgram: X" << endl;
         cout << "\n______________________________________________________" << endl;
         cout << "\nQuestion:\n";
         cout << "1. Student Score" << endl;
