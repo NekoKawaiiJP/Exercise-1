@@ -188,7 +188,7 @@ int main() {
                 cin >> d;
 
                 volume = w * h * d;
-                cout << "The volume of the box is: " << volume << endl;
+                cout << "The volume is: " << volume << endl;
                 pressEnter();
                 break;
             }

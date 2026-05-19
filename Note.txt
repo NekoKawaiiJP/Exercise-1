@@ -1,0 +1,32 @@
+| ID     | Color Name               | Description / Example Use      |
+| ------ | ------------------------ | ------------------------------ |
+| 0  | Black                    | Default background             |
+| 1  | Blue                     | Calm info text                 |
+| 2  | Green                    | Success or positive message    |
+| 3  | Aqua / Cyan              | Soft highlight                 |
+| 4  | Red                      | Errors, warnings               |
+| 5  | Purple / Magenta         | Secondary highlight            |
+| 6  | Yellow / Dark Yellow     | Warnings, attention            |
+| 7  | Light Gray (Default)     | Normal text color              |
+| 8  | Gray                     | Dim or secondary text          |
+| 9  | Light Blue               | Info or neutral highlight      |
+| 10 | Light Green              | Success (your “balance” color) |
+| 11 | Light Aqua / Bright Cyan | Bright highlight               |
+| 12 | Light Red                | Strong error or danger         |
+| 13 | Light Purple / Pink      | Special notice                 |
+| 14 | Light Yellow             | Caution or medium alert        |
+| 15 | White                    | Bright text or emphasis        |
+
+
+SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
+    v
+Shortcut:
+    v
+SetConsoleTextAttribute(h, 10);
+
+
+
+
+clean cmd:
+    v
+system("cls");
