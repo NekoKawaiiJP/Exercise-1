@@ -7,9 +7,9 @@ int main() {
     do {
         cout << "\n============================================" << endl;
         cout << "\nTitle: Lab 7" << endl;
-        cout << "\nStudent Name: MUHAMMAD SYUHAIRUDEN BIN NAMRAH" << endl;
-        cout << "\nStudent ID: 012025021052" << endl;
-        cout << "\nProgram: BETE" << endl;
+        cout << "\nStudent Name: X" << endl;
+        cout << "\nStudent ID: X" << endl;
+        cout << "\nProgram: X" << endl;
         cout << "============================================" << endl;
         cout << "1. Multiplication Table" << endl;
         cout << "2. Quiz Program" << endl;
