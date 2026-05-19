@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     cout << "\n______________________________________________________" << endl;
     cout << "\nTitle: Lab 4" << endl;
-    cout << "\nStudent Name: MUHAMMAD SYUHAIRUDEN BIN NAMRAH" << endl;
-    cout << "\nStudent ID: 012025021052" << endl;
-    cout << "\nProgram: BETE" << endl;
+    cout << "\nStudent Name: X" << endl;
+    cout << "\nStudent ID: X" << endl;
+    cout << "\nProgram: X" << endl;
     cout << "\n______________________________________________________" << endl;
 
     double Test_1, Test_2;
